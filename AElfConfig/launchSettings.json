@@ -1,0 +1,24 @@
+{
+    "profiles": {
+        "bp1": {
+            "commandName": "Project",
+            "commandLineArgs": "",
+            "workingDirectory": "/Users/guanliyuan/AElfConfig/bp1"
+        },
+        "side-bp1": {
+            "commandName": "Project",
+            "commandLineArgs": "",
+            "workingDirectory": "/Users/guanliyuan/AElfConfig/side-bp1"
+        },
+        "bp2": {
+            "commandName": "Project",
+            "commandLineArgs": "",
+            "workingDirectory": "/Users/guanliyuan/AElfConfig/bp1"
+        },
+        "fullnode": {
+            "commandName": "Project",
+            "commandLineArgs": "",
+            "workingDirectory": "/Users/guanliyuan/AElfConfig/fullnode"
+        }
+    }
+}

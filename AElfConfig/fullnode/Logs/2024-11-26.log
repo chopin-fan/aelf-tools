@@ -1,0 +1,27 @@
+2024-11-26 00:29:17,514 [.NET TP Worker] WARN  AElf.OS.Network.Grpc.PeerDialer (null) - scope=(null) - Could not retrieve certificate from 127.0.0.1:6800.
+System.Net.Sockets.SocketException (61): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at AElf.Kernel.SmartContract.TaskExtensions.WithCancellation(Task originalTask, CancellationToken ct) in /Users/guanliyuan/code/AElf/src/AElf.Kernel.SmartContract/Extensions/TaskExtensions.cs:line 54
+   at AElf.OS.Network.Grpc.PeerDialer.RetrieveServerCertificateAsync(DnsEndPoint remoteEndpoint) in /Users/guanliyuan/code/AElf/src/AElf.OS.Network.Grpc/Connection/PeerDialer.cs:line 390
+2024-11-26 04:46:10,773 [.NET TP Worker] WARN  AElf.OS.Network.Grpc.PeerDialer (null) - scope=(null) - Could not retrieve certificate from 127.0.0.1:6800.
+System.Net.Sockets.SocketException (61): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at AElf.Kernel.SmartContract.TaskExtensions.WithCancellation(Task originalTask, CancellationToken ct) in /Users/guanliyuan/code/AElf/src/AElf.Kernel.SmartContract/Extensions/TaskExtensions.cs:line 54
+   at AElf.OS.Network.Grpc.PeerDialer.RetrieveServerCertificateAsync(DnsEndPoint remoteEndpoint) in /Users/guanliyuan/code/AElf/src/AElf.OS.Network.Grpc/Connection/PeerDialer.cs:line 390
+2024-11-26 13:18:34,067 [.NET TP Worker] WARN  AElf.OS.Network.Grpc.PeerDialer (null) - scope=(null) - Could not retrieve certificate from 127.0.0.1:6800.
+System.Net.Sockets.SocketException (61): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at AElf.Kernel.SmartContract.TaskExtensions.WithCancellation(Task originalTask, CancellationToken ct) in /Users/guanliyuan/code/AElf/src/AElf.Kernel.SmartContract/Extensions/TaskExtensions.cs:line 54
+   at AElf.OS.Network.Grpc.PeerDialer.RetrieveServerCertificateAsync(DnsEndPoint remoteEndpoint) in /Users/guanliyuan/code/AElf/src/AElf.OS.Network.Grpc/Connection/PeerDialer.cs:line 390
